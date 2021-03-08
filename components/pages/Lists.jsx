@@ -40,7 +40,7 @@ const Lists = () => {
       <IonContent fullscreen>
         <IonHeader collapse="condense">
           <IonToolbar>
-            <IonTitle size="large">Lists</IonTitle>
+            <IonTitle size="large">Le tappe del Percorso</IonTitle>
           </IonToolbar>
         </IonHeader>
         <AllLists />

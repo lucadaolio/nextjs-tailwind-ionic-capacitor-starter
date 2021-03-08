@@ -7,15 +7,15 @@ export const images = [
 export const homeItems = [
   {
     title: 'Exploring Maui',
-    type: 'Blog',
+    type: 'Tappa #1',
     text: 'We just got back from a trip to Maui, and we had a great time...',
-    author: 'Max Lynch',
-    authorAvatar: '/img/max.jpg',
+    author: 'Comune di Roè Volciano',
+    authorAvatar: '/img/max.png',
     image: images[0],
   },
   {
     title: 'Arctic Adventures',
-    type: 'Blog',
+    type: 'Tappa #2',
     text:
       'Last month we took a trek to the Arctic Circle. The isolation was just what we needed after...',
     author: 'Max Lynch',
@@ -24,7 +24,7 @@ export const homeItems = [
   },
   {
     title: 'Frolicking in the Faroe Islands',
-    type: 'Blog',
+    type: 'Tappa #3',
     text:
       'The Faroe Islands are a North Atlantic archipelago located 320 kilometres (200 mi) north-northwest of Scotland...',
     author: 'Max Lynch',

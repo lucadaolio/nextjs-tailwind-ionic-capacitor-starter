@@ -21,13 +21,13 @@ const Settings = () => {
     <IonPage>
       <IonHeader>
         <IonToolbar>
-          <IonTitle>Settings</IonTitle>
+          <IonTitle>Impostazioni</IonTitle>
         </IonToolbar>
       </IonHeader>
       <IonContent>
         <IonList>
           <IonItem>
-            <IonLabel>Enable Notifications</IonLabel>
+            <IonLabel>Attiva notifiche</IonLabel>
             <IonToggle
               checked={settings.enableNotifications}
               onIonChange={e => {
