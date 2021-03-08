@@ -43,7 +43,7 @@ const Lists = () => {
             <IonTitle size="large">La mappa</IonTitle>
           </IonToolbar>
         </IonHeader>
-        <AllLists />
+        
       </IonContent>
     </IonPage>
   );

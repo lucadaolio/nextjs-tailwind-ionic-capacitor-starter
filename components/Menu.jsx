@@ -13,18 +13,18 @@ import {
   IonToolbar,
 } from '@ionic/react';
 import { useContext, useEffect, useState } from 'react';
-import { cog, flash, list } from 'ionicons/icons';
+import { cog, analytics, map } from 'ionicons/icons';
 import { useHistory, useLocation } from 'react-router-dom';
 
 const pages = [
   {
     title: 'Il percorso',
-    icon: flash,
+    icon: analytics,
     url: '/tabs/feed',
   },
   {
     title: 'Mappa',
-    icon: list,
+    icon: map,
     url: '/tabs/lists',
   },
   {

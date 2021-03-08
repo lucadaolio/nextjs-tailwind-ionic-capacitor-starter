@@ -1,7 +1,7 @@
 import { Redirect, Route } from 'react-router-dom';
 import { IonRouterOutlet, IonTabs, IonTabBar, IonTabButton, IonIcon, IonLabel } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
-import { cog, flash, list } from 'ionicons/icons';
+import { analytics, cog, map } from 'ionicons/icons';
 
 import Home from './Feed';
 import Lists from './Lists';
@@ -20,12 +20,12 @@ const Tabs = () => {
       </IonRouterOutlet>
       <IonTabBar slot="bottom">
         <IonTabButton tab="tab1" href="/tabs/feed">
-          <IonIcon icon={flash} />
+          <IonIcon icon={analytics} />
           <IonLabel>Percorso</IonLabel>
         </IonTabButton>
         <IonTabButton tab="tab2" href="/tabs/lists">
-          <IonIcon icon={list} />
-          <IonLabel>Tappe</IonLabel>
+          <IonIcon icon={map} />
+          <IonLabel>Mappa</IonLabel>
         </IonTabButton>
         <IonTabButton tab="tab3" href="/tabs/settings">
           <IonIcon icon={cog} />
