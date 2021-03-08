@@ -34,13 +34,13 @@ const Lists = () => {
     <IonPage>
       <IonHeader>
         <IonToolbar>
-          <IonTitle>Lists</IonTitle>
+          <IonTitle>La mappa</IonTitle>
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen>
         <IonHeader collapse="condense">
           <IonToolbar>
-            <IonTitle size="large">Le tappe del Percorso</IonTitle>
+            <IonTitle size="large">La mappa</IonTitle>
           </IonToolbar>
         </IonHeader>
         <AllLists />

@@ -18,17 +18,17 @@ import { useHistory, useLocation } from 'react-router-dom';
 
 const pages = [
   {
-    title: 'Feed',
+    title: 'Il percorso',
     icon: flash,
     url: '/tabs/feed',
   },
   {
-    title: 'Lists',
+    title: 'Mappa',
     icon: list,
     url: '/tabs/lists',
   },
   {
-    title: 'Settings',
+    title: 'Impostazioni',
     icon: cog,
     url: '/tabs/settings',
   },

@@ -33,7 +33,7 @@ const Notifications = ({ open, onDidDismiss }) => {
     <IonModal isOpen={open} onDidDismiss={onDidDismiss}>
       <IonHeader>
         <IonToolbar>
-          <IonTitle>Notifications</IonTitle>
+          <IonTitle>Notifiche</IonTitle>
           <IonButton slot="end" fill="clear" color="dark" onClick={onDidDismiss}>
             <IonIcon icon={close} />
           </IonButton>
@@ -42,7 +42,7 @@ const Notifications = ({ open, onDidDismiss }) => {
       <IonContent fullscreen>
         <IonHeader collapse="condense">
           <IonToolbar>
-            <IonTitle size="large">Notifications</IonTitle>
+            <IonTitle size="large">Notifiche</IonTitle>
           </IonToolbar>
         </IonHeader>
         <IonList>
